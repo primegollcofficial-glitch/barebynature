@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <!-- Top arc for BARE BY NATURE -->
+    <path id="topTextArc" d="M 68,200 A 132,132 0 0,1 332,200" fill="none" />
+    <!-- Bottom arc for INTIMATE CARE SPECIALIST -->
+    <path id="bottomTextArc" d="M 336,200 A 136,136 0 0,1 64,200" fill="none" />
+    
+    <!-- Deep luxury background radial -->
+    <radialGradient id="favBgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#23172c" />
+      <stop offset="85%" stop-color="#140d1b" />
+      <stop offset="100%" stop-color="#0c0711" />
+    </radialGradient>
+
+    <!-- Glowing purple disk -->
+    <linearGradient id="purpleDiskGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a432b8" />
+      <stop offset="100%" stop-color="#651a76" />
+    </linearGradient>
+
+    <!-- Ring gradient -->
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5adff" />
+      <stop offset="50%" stop-color="#a839c2" />
+      <stop offset="100%" stop-color="#d657fc" />
+    </linearGradient>
+  </defs>
+
+  <!-- Solid dark circular base ensuring visible contrast on any browser tab -->
+  <circle cx="200" cy="200" r="198" fill="url(#favBgGrad)" />
+
+  <!-- Outer ring -->
+  <circle cx="200" cy="200" r="192" stroke="url(#ringGrad)" stroke-width="5" fill="none" />
+  <circle cx="200" cy="200" r="183" stroke="#8b2fa0" stroke-width="2" stroke-opacity="0.7" fill="none" />
+
+  <!-- Side Markers -->
+  <circle cx="56" cy="200" r="6" fill="#8b2fa0" stroke="#f5adff" stroke-width="1.5" />
+  <circle cx="54.5" cy="200" r="2.5" fill="#f5adff" />
+  <circle cx="344" cy="200" r="6" fill="#8b2fa0" stroke="#f5adff" stroke-width="1.5" />
+  <circle cx="345.5" cy="200" r="2.5" fill="#f5adff" />
+
+  <!-- BARE BY NATURE top curved text -->
+  <text fill="#ffffff" font-size="24" font-family="'Cinzel', 'Playfair Display', Georgia, serif" font-weight="700" letter-spacing="0.28em">
+    <textPath href="#topTextArc" startOffset="50%" text-anchor="middle">BARE BY NATURE</textPath>
+  </text>
+
+  <!-- INTIMATE CARE SPECIALIST bottom curved text -->
+  <text fill="#f5adff" font-size="17" font-family="'Cinzel', sans-serif" font-weight="600" letter-spacing="0.24em">
+    <textPath href="#bottomTextArc" startOffset="50%" text-anchor="middle">INTIMATE CARE SPECIALIST</textPath>
+  </text>
+
+  <!-- Inner circle disk & dashed border -->
+  <circle cx="200" cy="200" r="94" stroke="#d657fc" stroke-width="1.5" stroke-opacity="0.5" stroke-dasharray="5 3" fill="none" />
+  <circle cx="200" cy="200" r="82" fill="url(#purpleDiskGrad)" stroke="#c744ee" stroke-width="3" />
+
+  <!-- Center silhouette artwork -->
+  <g transform="translate(200, 200) scale(0.92) translate(-200, -200)">
+    <path d="M 194,142 C 190,135 186,132 181,133 C 176,134 174,140 178,146 C 181,150 185,155 186,160 C 183,161 179,163 177,167 C 174,172 175,178 179,183 C 183,188 187,194 186,201 C 184,209 178,216 177,225 C 176,233 179,242 184,250 C 189,258 193,267 192,277 C 192,280 193,283 194,285 C 195,283 196,279 196,276 C 198,266 203,257 207,249 C 212,240 214,231 213,222 C 211,213 206,207 204,199 C 202,192 205,186 209,181 C 213,176 214,170 211,165 C 209,161 205,159 203,156 C 206,150 207,144 203,138 C 200,133 197,137 194,142 Z" fill="#ffffff" />
+    <path d="M 183,136 C 187,126 195,120 200,123 C 205,126 204,136 199,144 C 194,152 191,159 192,165" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" fill="none" />
+    <path d="M 197,143 C 202,146 204,150 203,155 C 201,160 197,163 195,166" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" fill="none" />
+    <path d="M 201,138 C 210,144 218,154 219,166 C 220,175 214,183 222,192 C 225,195 224,198 221,199 C 216,197 214,190 215,183 C 216,174 213,168 206,162" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#ffffff" fill-opacity="0.4" />
+    <path d="M 186,172 C 181,178 180,186 183,194 C 187,202 186,211 181,219 C 177,226 177,235 182,244 C 187,253 190,263 189,274" stroke="#ffffff" stroke-width="2" stroke-linecap="round" fill="none" />
+    <path d="M 203,170 C 207,177 207,185 204,193 C 200,201 202,210 207,218 C 212,226 212,236 206,245 C 201,254 198,264 198,274" stroke="#ffffff" stroke-width="2" stroke-linecap="round" fill="none" />
+  </g>
+</svg>

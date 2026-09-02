@@ -1,0 +1,6 @@
+{
+  "name": "Bare By Nature",
+  "description": "Luxury aesthetic sanctuary offering high-end spa treatments, intimate waxing, signature revival packages, and online studio booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
